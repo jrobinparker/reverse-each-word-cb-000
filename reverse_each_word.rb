@@ -1,4 +1,4 @@
 def reverse_each_word(sentence)
-  reversed_sentence = sentence.reverse
+  sentence_array = sentence.to_a
   puts reversed_sentence
 end
